@@ -1,0 +1,140 @@
+,"Tokusetsu 4 Config Sheet v4.2.1
+Check out how to use",,,,,,このシートに個人情報を含めないでください
+Option,Value1,Value2,Value3,Value4,Value5,*Required,Description
+-Basics-,,,,,,,
+Title,ルミちゃんなでなで1回チケット,,,,,*,Name of the work. Also used for the title of the site.
+Release Date,2023/08/13,,,,,*,Release date of the work. Any format is acceptable.
+Specification,Bandcamp DLカード,,,,,*,"Specifications of the work. You may want to enter the format, number of pages, etc."
+Price,1000円(イベント),,,,,*,Price of the work. Any format is acceptable.
+Location,NIZI-RINGO,,,,,,Place of distribution of the work.
+Hashtag,#ルミちゃんなでなで1回チケット,,,,,,"Twitter hashtag for the event, only one can be specified. Do not include the ""#"" symbol.
+
+If you set this up, when you press the tweet button, it will be tweeted with the hashtag."
+,File path,,,,,,
+Art Image,luminade_card.png,,,,,,"An image of your work (CD jacket or booklet cover).
+jpg or png file of at least 512px wide.
+Please keep the file size under 300KB as much as possible."
+-Store-,,,,,,,
+Store Heading,Available here,,,,,,"Heading of the Purchase Works section. If left blank, hides the section itself."
+,Store Name,URL,,,,,
+Store,asdf,asdf,,,,,"[Incremental Option]
+The place to obtain (purchase) the artwork. You can increase the number by adding more ""Store"" rows on the spreadsheet.
+
+[Account] The name of the place from which the artwork was purchased. (e.g., the name of the store)
+
+[URL] The URL of the place where the artwork was purchased."
+-Design-,,,,,,,
+Accent Color (Hex),,,,,,,"Accent Color.
+Enter the color using a hexadecimal color code (#000000).
+If not entered, the default color provided by Tokusetsu 4 will be used."
+Background Color (Hex),#FFFFFF,,,,,,"Background color.
+Enter the color in hexadecimal color code (#000000).
+If not entered, the default color provided by Tokusetsu 4 will be used."
+,Hex,Opacity(0 - 1),,,,,
+Content Background Color(Hex),#DE9513,1,,,,*,"Background color of the content area.
+
+[Hex] Please enter the background color as a hexadecimal color code (#000000). This setting will automatically determine the text color (black or white) for the entire page.
+
+[Opacity] Background opacity. Enter a number in the range of 0 to 1. Decimal point is acceptable. (Default: 1)
+
+0: Makes the background color of the content area completely transparent. Deprecated when ""Background Image"" is set.
+1: The background color of the content area is completely opaque and does not watermark the background image."
+,File path,,,,,,
+Cover,luminade_cover.png,,,,,,"Cover image.
+JPG or PNG file of 1600*720px or larger. Please keep the file size under 500KB as much as possible."
+,File path,Repeat,Align,Fixed,,,
+Background Image,,None,Center,-,,,"Background Image.
+
+[File path] jpg or png files are recommended. Please keep the file size under 500 KB as much as possible.
+
+[Repeat] Select how you would like to repeat the image.
+
+[Align] Select the position where you would like to place the image.
+
+[Fixed] Choose to keep the background image fixed in position without scrolling."
+,File path,,,,,,
+Share Image,luminade_share.png,,,,,,"An image that is displayed when shared on social media such as Twitter. This image will not be displayed on the site, but will affect the appearance when shared. The image should be a 1200 * 630px jpg or png file."
+,File path,,,,,,
+Site Icon (favicon),favicon.png,,,,,,Site icon (favicon). Please provide a 32*32px png image.
+Hide on Search Results,-,,,,,,"Avoid being listed in Google and other search results. 
+Default: -"
+-Organization-,,,,,,,
+Organization Name,litmus*,,,,,*,The name of the production organization (label or circle) of the work.
+,File path,,,,,,
+Organization Logo,,,,,,,"Logo of the production organization. jpg or png of at least 500px wide, transparent png recommended. Please keep the file size under 50KB as much as possible."
+,Account,URL,,,,,
+Organization Link,twitter,https://twitter.com/litmus_music,,,,,"[Incremental Option]
+Social links for production organizations. Increase the number by increasing the ""Organization Link"" row on the spreadsheet.
+
+[Account]
+Link Name. (e.g. Website, Twitter, SoundCloud, etc.)
+[URL]
+URL of the link. (e.g. https://twitter.com/example)"
+Organization Link,youtube,https://youtube.com/@litmus_star,,,,,
+Organization Link,soundcloud,https://soundcloud.com/litmus_star,,,,,
+-Embedded Players-,,,,,,,
+,Type,Video/Audio Id,,,,,
+Player (SoundCloud),,,,,,,"Embed SoundCloud songs (where to listen, etc.).
+
+[Type] Type of song to embed. Select ""Track"" to embed a single song or ""Playlist"" to embed a playlist.
+
+[Audio Id] The ID of the SoundCloud song. the ID is on the ""Embed"" tab of each song where you click on ""Share"" and the written code https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/ tracks/<<about 9 digits here>>&auto_play=false&... Is."
+Player (YouTube),,sppUkn258Sw,,,,,"Embed YouTube videos (PV, etc.).
+
+[Type] Not used.
+[Video Id] ID of the YouTube video. The ID is http://www.youtube.com/embed/<<string here>> in the code written in ""Share"" -> ""Embed Code""."
+-About-,,,,,,,
+About Heading,About,,,,,*,Heading of the works section.
+About,「ルミちゃんはいつもかわいいね～、なでなでしてもいい？」,,,,,*,"[Incremental Option]
+An introduction to the work.
+It is best to briefly describe the main idea and appeal points of the work. To break lines, add more ""About"" rows on the spreadsheet; you can display more than two lines."
+About,「ああん～❤お姉ちゃんのなでなで、とっても好き＞＜」,,,,,,
+About,うちの子「橘ルミ」です。,,,,,,
+About,かわいく撫でられることが大好きな女の子です。,,,,,,
+About,ルミちゃんがあなたにドキドキになるように、いっぱいなでなでしてください...!,,,,,,
+About,※この商品は、「かわいい女の子」専用なので、ご購入の際にご参考ください。,,,,,,
+About,.,,,,,,
+About,.,,,,,,
+About,.,,,,,,
+About,いつものハウス中心のEPです！,,,,,,
+About,初めてのDLカードです！,,,,,,
+About,よろしくお願いいたします！！,,,,,,
+-Gallery-,,,,,,,
+,File path,,,,,,
+Gallery,,,,,,,"[Incremental Option]
+Sample images of your work.
+JPG or PNG file with a minimum width of 700px. Please keep the file size under 300KB per image as much as possible."
+-Tracklist-,,,,,,,
+Tracklist Heading,Tracklist,,,,,,Track listing headings.
+,Title,Description (Optional),,,,,
+Track,Encounter [Original Mix],litmus*,,,,*,"[Incremental Option]
+Track List. The number can be increased by adding more ""Track"" rows on the spreadsheet.
+
+[Title] Name of the music.
+Tips: If you are undecided, write ""undecided (or TBD, etc.)"" in this field for clarity.
+
+[Description] Description of the relevant music (may not be entered). Usually it is better to enter the name of the artist."
+Track,someone has to do it [Original Mix],litmus*,,,,,
+Track,Machos on the Train [Original Mix],litmus*,,,,,
+Track,Stratosphere [Original Mix],litmus*,,,,,
+Track,Back To My Soul [Original Mix],litmus*,,,,,
+Track,Workaholic [Original Mix],litmus*,,,,,
+Track,Encounter [Club Mix],litmus*,Album exclusive,,,,
+Track,someone has to do it [Club Mix],litmus*,Album exclusive,,,,
+Track,Machos on the Train [Club Mix],litmus*,Album exclusive,,,,
+Track,Stratosphere [Club Mix],litmus*,Album exclusive,,,,
+Track,Back To My Soul [Club Mix],litmus*,Album exclusive,,,,
+Track,Workaholic [Club Mix],litmus*,Album exclusive,,,,
+-Member-,,,,,,,
+Member Heading,Staff,,,,,*,Member Introduction section heading.
+,Name,Role,Website URL (Optional),,,,
+Member,litmus*,Producer,https://youtube.com/@litmus_star,,,*,"[Incremental Option]
+Staff.
+Increase the number by adding more ""Member"" rows on the spreadsheet.
+
+[Name] Staff Name.
+[Role] Role of staff.
+[Website URL] Staff website. Optional."
+Member,神宮要,Artwork,https://twitter.com/zinguukaname,,,,
+-Footer-,,,,,,,
+Footer Text,2023 milkyway TRAXX,,,,,*,Footer (bottom) text. You may want to enter the lead person or lead organization.
