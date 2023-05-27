@@ -7,7 +7,7 @@ Release Date,2023/08/13,,,,,*,Release date of the work. Any format is acceptable
 Specification,Bandcamp DLカード,,,,,*,"Specifications of the work. You may want to enter the format, number of pages, etc."
 Price,1000円(イベント),,,,,*,Price of the work. Any format is acceptable.
 Location,NIZI-RINGO,,,,,,Place of distribution of the work.
-Hashtag,#ルミちゃんなでなで1回チケット,,,,,,"Twitter hashtag for the event, only one can be specified. Do not include the ""#"" symbol.
+Hashtag,ルミちゃんなでなで1回チケット,,,,,,"Twitter hashtag for the event, only one can be specified. Do not include the ""#"" symbol.
 
 If you set this up, when you press the tweet button, it will be tweeted with the hashtag."
 ,File path,,,,,,
@@ -24,14 +24,14 @@ The place to obtain (purchase) the artwork. You can increase the number by addin
 
 [URL] The URL of the place where the artwork was purchased."
 -Design-,,,,,,,
-Accent Color (Hex),,,,,,,"Accent Color.
+Accent Color (Hex),#BA05A1,,,,,,"Accent Color.
 Enter the color using a hexadecimal color code (#000000).
 If not entered, the default color provided by Tokusetsu 4 will be used."
 Background Color (Hex),#FFFFFF,,,,,,"Background color.
 Enter the color in hexadecimal color code (#000000).
 If not entered, the default color provided by Tokusetsu 4 will be used."
 ,Hex,Opacity(0 - 1),,,,,
-Content Background Color(Hex),#DE9513,1,,,,*,"Background color of the content area.
+Content Background Color(Hex),#F6D289,1,,,,*,"Background color of the content area.
 
 [Hex] Please enter the background color as a hexadecimal color code (#000000). This setting will automatically determine the text color (black or white) for the entire page.
 
