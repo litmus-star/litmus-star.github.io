@@ -4,7 +4,10 @@ function redirectToLanguagePage() {
 
     // 언어 코드를 기반으로 적절한 페이지 URL을 결정합니다.
     var pageUrl = '';
-	if (userLang.includes('ja')) { // 일본어
+	if (userLang.includes('ko')) { // 한국어
+        pageUrl = 'index_ko.html';
+    }
+	else if (userLang.includes('ja')) { // 일본어
         pageUrl = 'index_ja.html';
     }
 
