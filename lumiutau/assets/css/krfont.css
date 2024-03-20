@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'CookieRun-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-family: 'Myoya';
+    src: url('./webfonts/myoya.ttf');
     font-weight: normal;
     font-style: normal;
 }
 body{
-	font-family: 'CookieRun-Regular'
+	font-family: 'Myoya'
 }
