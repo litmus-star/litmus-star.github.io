@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Myoya';
-    src: url('../webfonts/myoya.ttf');
+    src: url('../webfonts/myoya.ttf') format('woff');
     font-weight: normal;
     font-style: normal;
 }
