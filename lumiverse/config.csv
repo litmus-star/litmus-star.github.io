@@ -65,7 +65,7 @@ Hide on Search Results,-,,,,,,"Googleなどの検索結果に載らないよう�
 -Organization-,,,,,,,
 Organization Name,milkyway TRAXX,,,,,*,作品の制作団体（レーベルやサークル）名。
 ,File path,,,,,,
-Organization Logo,logo.png,,,,,,"制作団体のロゴ。
+Organization Logo,,,,,,,"制作団体のロゴ。
 横幅500px以上のjpgまたはpng。透過pngを推奨。
 ファイルサイズはできるだけ50KB以下に抑えてください。"
 ,Account,URL,,,,,
@@ -85,7 +85,7 @@ Player (SoundCloud),,,,,,,"SoundCloudの楽曲（試聴先等）を埋め込み�
 埋め込む楽曲の種類。単一の曲を埋め込むときは「Track」、プレイリストを埋め込むときは「Playlist」を選択してください。
 [Audio Id]
 SoundCloud楽曲のID。IDは各楽曲の「Share」をクリックした先の「Embed」タブで、書いてあるコードの https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/<<ここの9桁くらいの数字>>&auto_play=false&... です。"
-Player (YouTube),,,,,,,"YouTube動画（PV等）を埋め込みます。
+Player (YouTube),,HV8ZlE9ztOc,,,,,"YouTube動画（PV等）を埋め込みます。
 
 [Type]
 使用しません。
@@ -112,13 +112,13 @@ Gallery,,,,,,,"【増やせるオプション】
 Tracklist Heading,Tracklist,,,,,,トラックリストの見出し。
 ,Title,Description (Optional),,,,,
 Track,Viral,,,,,,
-,Faces,,,,,,
-,Save Yourself ft. Miori Celesta,,,,,,
-,カニとホトケとはらぺこ屋 ft. 桃根地のみ,,,,,,
-,イマジナリーガール ft. ななひら,,,,,,
-,Luminance ft. PANXI,,,,,,
-,Time to Frenzy,,,,,,
-,Lost ft. ANRI,,,,,,
+Track,Faces,,,,,,
+Track,Save Yourself ft. Miori Celesta,,,,,,
+Track,カニとホトケとはらぺこ屋 ft. 桃根地のみ,,,,,,
+Track,イマジナリーガール ft. ななひら,,,,,,
+Track,Luminance ft. PANXI,,,,,,
+Track,Time to Frenzy,,,,,,
+Track,Lost ft. ANRI,,,,,,
 Track,my love is done [Club Mix] ft. Kasane Teto,,,,,*,"【増やせるオプション】
 トラックリスト。
 スプレッドシート上で「Track」行を増やすことで、数を増やすことができます。
@@ -132,14 +132,14 @@ Tips: 未定のときは、この欄に「未定（またはTBDなど）」と�
 Member Heading,Staff,,,,,*,スタッフ紹介セクションの見出し。
 ,Name,Role,Website URL (Optional),,,,
 Member,litmus*,Producer,https://twitter.com/litmus_music,,,,
-,Miori Celesta,Vocal,https://www.youtube.com/@MioriCelesta,,,,
-,桃寝ちのい,Vocal / Lyrics,https://www.youtube.com/@ul0ux,,,,
-,ななひら,Vocal,https://www.youtube.com/@Nanahira_Confetto,,,,
-,PANXI,Vocal,https://www.youtube.com/@PANXI,,,,
-,QURELESS,Lyrics,https://twitter.com/QURELESS_,,,,
-,ことの,Lyrics,https://twitter.com/__kt127,,,,
-,A. Ki,Guitar Session,https://twitter.com/AKi_Sound,,,,
-,いちまる,Artwork,https://www.youtube.com/@ichimaru103,,,*,"【増やせるオプション】
+Member,Miori Celesta,Vocal,https://www.youtube.com/@MioriCelesta,,,,
+Member,桃寝ちのい,Vocal / Lyrics,https://www.youtube.com/@ul0ux,,,,
+Member,ななひら,Vocal,https://www.youtube.com/@Nanahira_Confetto,,,,
+Member,PANXI,Vocal,https://www.youtube.com/@PANXI,,,,
+Member,QURELESS,Lyrics,https://twitter.com/QURELESS_,,,,
+Member,ことの,Lyrics,https://twitter.com/__kt127,,,,
+Member,A. Ki,Guitar Session,https://twitter.com/AKi_Sound,,,,
+Member,いちまる,Artwork,https://www.youtube.com/@ichimaru103,,,*,"【増やせるオプション】
 スタッフ。スプレッドシート上で「Member」行を増やすことで、数を増やすことができます。
 
 [Name]
