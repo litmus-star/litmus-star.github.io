@@ -1,0 +1,152 @@
+,"Tokusetsu 4 Config Sheet v4.2.1
+Check out how to use",,,,,,このシートに個人情報を含めないでください
+Option,Value1,Value2,Value3,Value4,Value5,*Required,Description
+-Basics-,,,,,,,
+Title,Lumiverse,,,,,*,作品名。
+Release Date,2024/10/27,,,,,*,作品のリリース日。どのような書式でも構いません。
+Specification,プレスCD / ジュエルケース,,,,,*,作品の仕様。判型やページ数などを入力するとよいでしょう。
+Price,"2,000円",,,,,*,作品の価格。どのような書式でも構いません。
+Location,ケ-08ab [milkyway TRAXX],,,,,,作品の頒布場所。
+Hashtag,#Lumiverse,,,,,,"Twitterハッシュタグ。1つだけ指定できます。「#」記号は含めないでください。
+設定すると、ツイートボタンを押したときにハッシュタグ付きでツイートされるようになります。"
+,File path,,,,,,
+Art Image,lumiverse_artwork.png,,,,,,"作品画像（CDジャケットや冊子の表紙）。
+横512px以上のjpgまたはpngファイル。ファイルサイズはできるだけ300KB以下に抑えてください。"
+-Store-,,,,,,,
+Store Heading,Available here,,,,,,作品購入セクションの見出し。空欄にすると、セクション自体を非表示にします。
+,Store Name,URL,,,,,
+Store,TBA,,,,,,"【増やせるオプション】
+作品の入手（購入）先。
+スプレッドシート上で「Store」行を増やすことで、数を増やすことができます。
+
+[Account]
+入手先名。（店舗の名称等）
+[URL]
+入手先のURL。"
+-Design-,,,,,,,
+Accent Color (Hex),,,,,,,"アクセントカラー。
+16進数カラーコード（#000000）で記入してください。
+未入力の場合、デフォルトのアクセントカラーが使われます。"
+Background Color (Hex),,,,,,,"背景色。
+16進数カラーコード（#000000）で記入してください。
+未入力の場合、デフォルトのアクセントカラーが使われます。"
+,Hex,Opacity(0 - 1),,,,,
+Content Background Color(Hex),#6D2D2C,1,,,,*,"コンテンツ領域の背景色。
+
+[Hex]
+背景色を16進数カラーコード（#000000）で記入してください。なおこの設定をもとに、ページ全体の文字色（黒または白）が自動的に決まります。
+[Opacity]
+背景の不透明度。数値を0〜1の範囲で入力してください。（デフォルト: 1）
+0: コンテンツ領域の背景色を完全に透明にします。※「 Background Image」設定時には非推奨
+1: コンテンツ領域の背景色を完全に不透明にし、背景画像を透かしません。"
+,File path,,,,,,
+Cover,lumiverse_cover.png,,,,,,"カバー画像。
+1600*780px以上のjpgまたはpngファイル。ファイルサイズはできるだけ500KB以下に抑えてください。"
+,File path,Repeat,Align,Fixed,,,
+Background Image,,None,Center,-,,,"背景画像。（省略可）
+
+[File path]
+jpg または png ファイル推奨。ファイルサイズはできるだけ500KB以下に抑えてください。
+[Repeat]
+画像の繰り返し方法を選択してください。
+[Align]
+画像を配置する位置を選択してください。
+[Fixed]
+背景画像をスクロールせず位置固定したままにするか選べます。"
+,File path,,,,,,
+Share Image,,,,,,,"TwitterなどのSNSにシェアされたときに表示する画像。サイト上には表示されませんが、シェアされたときの見た目に影響します。
+1200 * 630px の jpg または png ファイル。
+未入力の場合、「Cover」の画像がシェア画像として使われます。"
+,File path,,,,,,
+Site Icon (favicon),favicon.png,,,,,,"サイトのアイコン（favicon）。
+32*32pxのpngファイル。"
+Hide on Search Results,-,,,,,,"Googleなどの検索結果に載らないようにします。
+デフォルト: -"
+-Organization-,,,,,,,
+Organization Name,milkyway TRAXX,,,,,*,作品の制作団体（レーベルやサークル）名。
+,File path,,,,,,
+Organization Logo,logo.png,,,,,,"制作団体のロゴ。
+横幅500px以上のjpgまたはpng。透過pngを推奨。
+ファイルサイズはできるだけ50KB以下に抑えてください。"
+,Account,URL,,,,,
+Organization Link,,,,,,,"【増やせるオプション】
+制作団体のソーシャルリンク。
+スプレッドシート上で「Organization Link」行を増やすことで、数を増やすことができます。
+
+[Account]
+リンク名。（例: Website, Twitter, SoundCloud等）
+[URL]
+リンクのURL。（例: https://twitter.com/example）"
+-Embedded Players-,,,,,,,
+,Type,Video/Audio Id,,,,,
+Player (SoundCloud),,,,,,,"SoundCloudの楽曲（試聴先等）を埋め込みます。
+
+[Type]
+埋め込む楽曲の種類。単一の曲を埋め込むときは「Track」、プレイリストを埋め込むときは「Playlist」を選択してください。
+[Audio Id]
+SoundCloud楽曲のID。IDは各楽曲の「Share」をクリックした先の「Embed」タブで、書いてあるコードの https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/<<ここの9桁くらいの数字>>&auto_play=false&... です。"
+Player (YouTube),,,,,,,"YouTube動画（PV等）を埋め込みます。
+
+[Type]
+使用しません。
+[Video Id]
+YouTube動画のID。IDは「共有」-> 「埋め込みコード」の中に書いてあるコードの、http://www.youtube.com/embed/<<ここの文字列>> です。"
+-About-,,,,,,,
+About Heading,About,,,,,*,作品紹介セクションの見出し。
+About,"―私が行く未来は、私が決めるコトだから。
+(...あぅぅ...こんなイメチェンは似合わないよ...＞＜)
+
+litmus* EP
+『Lumiverse』
+
+「ルミちゃんのイメチェン」をテーマにした新作EPが登場！
+新しいルミちゃん、新しいスタイルを楽しんでください！",,,,,*,"【増やせるオプション】
+作品紹介文。作品の主旨やアピールポイントを簡潔に記述するとよいでしょう。
+改行するには、スプレッドシート上で「About」行を増やしてください。2行以上表示することができます。"
+-Gallery-,,,,,,,
+,File path,,,,,,
+Gallery,,,,,,,"【増やせるオプション】
+作品のサンプル画像。幅700px以上のjpgまたはpngファイル。
+ファイルサイズはできるだけ1画像あたり300KB以下に抑えてください。"
+-Tracklist-,,,,,,,
+Tracklist Heading,Tracklist,,,,,,トラックリストの見出し。
+,Title,Description (Optional),,,,,
+Track,Viral,,,,,,
+,Faces,,,,,,
+,Save Yourself ft. Miori Celesta,,,,,,
+,カニとホトケとはらぺこ屋 ft. 桃根地のみ,,,,,,
+,イマジナリーガール ft. ななひら,,,,,,
+,Luminance ft. PANXI,,,,,,
+,Time to Frenzy,,,,,,
+,Lost ft. ANRI,,,,,,
+Track,my love is done [Club Mix] ft. Kasane Teto,,,,,*,"【増やせるオプション】
+トラックリスト。
+スプレッドシート上で「Track」行を増やすことで、数を増やすことができます。
+
+[Title]
+楽曲名。
+Tips: 未定のときは、この欄に「未定（またはTBDなど）」と記入すると分かりやすくなります。
+[Description]
+該当楽曲の説明（未入力可）。通常はアーティスト名を入力するとよいでしょう。"
+-Member-,,,,,,,
+Member Heading,Staff,,,,,*,スタッフ紹介セクションの見出し。
+,Name,Role,Website URL (Optional),,,,
+Member,litmus*,Producer,https://twitter.com/litmus_music,,,,
+,Miori Celesta,Vocal,https://www.youtube.com/@MioriCelesta,,,,
+,桃寝ちのい,Vocal / Lyrics,https://www.youtube.com/@ul0ux,,,,
+,ななひら,Vocal,https://www.youtube.com/@Nanahira_Confetto,,,,
+,PANXI,Vocal,https://www.youtube.com/@PANXI,,,,
+,QURELESS,Lyrics,https://twitter.com/QURELESS_,,,,
+,ことの,Lyrics,https://twitter.com/__kt127,,,,
+,A. Ki,Guitar Session,https://twitter.com/AKi_Sound,,,,
+,いちまる,Artwork,https://www.youtube.com/@ichimaru103,,,*,"【増やせるオプション】
+スタッフ。スプレッドシート上で「Member」行を増やすことで、数を増やすことができます。
+
+[Name]
+スタッフ名。
+[Role]
+スタッフの役割。
+[Website URL]
+スタッフのウェブサイト。省略可。"
+-Footer-,,,,,,,
+Footer Text,2024 milkyway TRAXX,,,,,*,フッター（最下部）のテキスト。主宰者・主宰団体を入力するとよいでしょう。
